@@ -1,4 +1,4 @@
-package com.example.myapplication;
+package com.example.myapplication.first_Second_HomeWork;
 
 public class PersonTest {
     public static void main(String[] args) {

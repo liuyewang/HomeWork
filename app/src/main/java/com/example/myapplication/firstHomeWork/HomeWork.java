@@ -1,4 +1,4 @@
-package com.example.myapplication;
+package com.example.myapplication.firstHomeWork;
 
 import java.util.InputMismatchException;
 import java.util.Scanner;
@@ -110,12 +110,11 @@ public class HomeWork {
             length = scanner.nextInt();
         }
         mathScore = new float[length];
-        assert mathScore != null;
         for (int i = 0; i < mathScore.length; i++) {
             try {
                 int x = i + 1;
                 System.out.println("请输入第" + x + "个数据");
-                mathScore[i] = scanner.nextInt();
+                mathScore[i] = scanner.nextFloat();
             } catch (Exception e) {
                 System.out.println("输入的数据格式有误，不能够有非数字,请重新输入");
                 scanner.next();
