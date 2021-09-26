@@ -1,4 +1,0 @@
-老师好，我已开始就用的Android studio
-所以交的作业也在这个项目里面了
-作业的文件名叫做 HomeWork.java
-和MainActivity 在同一个目录下
